@@ -36,7 +36,7 @@ services:
       - "10002:8080"
     restart: unless-stopped
   front-admin:
-    image: thejustrusik/event-space-fron-admin:latest
+    image: thejustrusik/event-space-fron-admin:develop
     ports:
       - "9999:80"
     restart: unless-stopped
