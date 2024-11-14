@@ -40,5 +40,10 @@ services:
     ports:
       - "9999:80"
     restart: unless-stopped
+  front-main:
+    image: thejustrusik/event-space-front-main:develop
+    ports:
+      - "9998:80"
+    restart: unless-stopped
 volumes:
   main-database:
